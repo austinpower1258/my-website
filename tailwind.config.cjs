@@ -1,12 +1,17 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
-	purge: [],
 	mode: 'jit',
-	darkMode: false, // or 'media' or 'class'
-	theme: {
-		extend: {}
+	purge: {
+		// Does not specify src because we have some tailwind classes in mdsvex.config.js
+		content: ['./src/**/*.{html,js,svelte,ts,md}', './mdsvex.config.js']
 	},
+	darkMode: true, // or 'media' or 'class'
+	
 	variants: {
 		extend: {}
 	},
-	plugins: []
+	plugins: [
+		
+	]
 };

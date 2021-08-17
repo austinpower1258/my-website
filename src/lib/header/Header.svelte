@@ -1,27 +1,50 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import logo from './svelte-logo.svg';
+	import 'tailwindcss/tailwind.css';
 </script>
 
 <header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<h1>AW</h1>
-		</a>
-	</div>
+	<div class="flex justify-center bg-green-200">
+		<nav>
+			<ul class="flex py-6">
+				<a class="text-xl px-64 text-black font-bold" href="/">//Austin_Wang//</a>
+				<li class="mr-6">
+					<a
+						class="text-m text-black-500 hover:text-green-600 hover:bg-green-100 px-10 py-8"
+						href="/">Home</a
+					>
+				</li>
 
-	<nav>
-		<ul>
-			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
-			<li class:active={$page.path === '/todos'}><a sveltekit:prefetch href="/todos">Todos</a></li>
-		</ul>
-	</nav>
+				<li class="mr-6">
+					<a
+						class="text-m text-black-500 hover:text-green-600 hover:bg-green-100 px-9 py-8"
+						href="/projects">Projects</a
+					>
+				</li>
+				<li class="mr-6">
+					<a
+						class="text-m text-black-500 hover:text-green-600 hover:bg-green-100 px-12 py-8"
+						href="/blog">Blog</a
+					>
+				</li>
+				<li class="mr-6">
+					<a
+						class="text-m text-black-500 hover:text-green-600 hover:bg-green-100 px-11 py-8"
+						href="/about">About</a
+					>
+				</li>
+			</ul>
+		</nav>
+	</div>
 
 	<div class="corner">
 		<!-- TODO put something else here? github link? -->
 	</div>
 </header>
 
-<style>
+<style global lang="postcss">
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
 </style>
