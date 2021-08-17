@@ -10,12 +10,12 @@
 	<title>Home</title>
 </svelte:head>
 
-<main class="max-w-prose mx-auto">
+<main class="max-w-prose mx-auto bg-green-100">
 	<section>
-		<h1 class="font-bold text-5xl lg:text-6xl my-10 text-gray-900">Hi, I'm Austin Wang</h1>
-		<div class="prose my-10 py-2">
+		<h1 class="font-bold text-5xl lg:text-6xl py-6 text-green-600">Hi, I'm Austin Wang</h1>
+		<div>
 			<p>I love astronomy!</p>
-			<img src={Milky_Way} alt="The Milky" />
+			<img src={Milky_Way} alt="The Milky Way" />
 		</div>
 	</section>
 </main>
