@@ -14,8 +14,8 @@
 	<section>
 		<h1 class="font-bold text-5xl lg:text-6xl py-6 text-green-600">Hi, I'm Austin Wang</h1>
 		<div>
-			<p>I love astronomy!</p>
-			<img src={Milky_Way} alt="The Milky Way" />
+			<br />
+			<img class="rounded-2xl" src={Milky_Way} alt="The Milky Way" />
 		</div>
 	</section>
 </main>

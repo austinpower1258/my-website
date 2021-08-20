@@ -8,29 +8,34 @@
 	<div class="flex justify-center bg-green-200">
 		<nav>
 			<ul class="flex py-6">
-				<a class="text-xl px-64 text-black font-bold" href="/">//Austin_Wang//</a>
+				<a class="text-xl italic px-60 text-green-800 font-bold" href="/">&lt;Austin_Wang/&gt;</a>
 				<li class="mr-6">
-					<a
-						class="text-m text-black-500 hover:text-green-600 hover:bg-green-100 px-10 py-8"
-						href="/">Home</a
+					<a class="text-m text-black hover:text-green-600 hover:bg-green-100 px-10 py-8" href="/"
+						>Home</a
 					>
 				</li>
 
 				<li class="mr-6">
 					<a
-						class="text-m text-black-500 hover:text-green-600 hover:bg-green-100 px-9 py-8"
+						class="text-m text-black hover:text-green-600 hover:bg-green-100 px-9 py-8"
 						href="/projects">Projects</a
 					>
 				</li>
 				<li class="mr-6">
 					<a
-						class="text-m text-black-500 hover:text-green-600 hover:bg-green-100 px-12 py-8"
+						class="text-m text-black hover:text-green-600 hover:bg-green-100 px-12 py-8"
 						href="/blog">Blog</a
 					>
 				</li>
 				<li class="mr-6">
 					<a
-						class="text-m text-black-500 hover:text-green-600 hover:bg-green-100 px-11 py-8"
+						class="text-m text-black hover:text-green-600 hover:bg-green-100 px-12 py-8"
+						href="/blog">Travel</a
+					>
+				</li>
+				<li class="mr-6">
+					<a
+						class="text-m text-black hover:text-green-600 hover:bg-green-100 px-11 py-8"
 						href="/about">About</a
 					>
 				</li>
