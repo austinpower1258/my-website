@@ -30,7 +30,7 @@
 				<li class="mr-6">
 					<a
 						class="text-m text-black hover:text-green-600 hover:bg-green-100 px-12 py-8"
-						href="/blog">Travel</a
+						href="/violin">Violin</a
 					>
 				</li>
 				<li class="mr-6">
