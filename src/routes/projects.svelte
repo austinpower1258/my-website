@@ -15,11 +15,11 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>Projects</title>
 </svelte:head>
 
 <div class="max-w-prose mx-auto bg-green-100">
-	<h1 class="font-bold text-5xl lg:text-6xl py-6 text-green-600">About</h1>
+	<h1 class="font-bold text-5xl lg:text-6xl py-6 text-green-600">Projects</h1>
 
-	<p>Who am I? I'm Austin and I love astronomy, coding, and violin!</p>
+	<p>These are my cool projects!</p>
 </div>
